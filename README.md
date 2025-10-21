@@ -214,16 +214,47 @@ python src/main.py
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
 
+## 📚 Documentação Completa
+
+Este projeto conta com documentação abrangente:
+
+- **[API Documentation](API_DOCUMENTATION.md)** - Referência completa da API REST
+  - Endpoints detalhados com exemplos
+  - Códigos de resposta
+  - Exemplos em Python, JavaScript e cURL
+
+- **[Architecture Documentation](ARCHITECTURE.md)** - Arquitetura do sistema
+  - Diagramas de arquitetura
+  - Fluxo de dados
+  - Design patterns utilizados
+  - Considerações de escalabilidade
+
+- **[Contributing Guide](CONTRIBUTING.md)** - Guia para contribuidores
+  - Como configurar ambiente de desenvolvimento
+  - Padrões de código
+  - Processo de Pull Request
+
+- **[API Configuration Guide](CONFIGURACAO_APIS.md)** - Configuração de APIs externas
+  - Como obter chaves de API
+  - Configuração no Supabase
+  - Troubleshooting
+
+- **[Supabase Backend](supabase/README.md)** - Documentação do backend Supabase
+  - Schema do banco de dados
+  - Edge Functions
+  - Row-Level Security
+
 ## 🆘 Suporte
 
 - **Issues**: [GitHub Issues](https://github.com/femydatagent/lead-generation-tool/issues)
-- **Documentação**: Este README
+- **Documentação**: Veja os links acima
 - **Demo**: [https://xlhyimcdz5jj.manus.space](https://xlhyimcdz5jj.manus.space)
 
 ## 🏆 Créditos
 
 Desenvolvido com ❤️ usando:
 - [Flask](https://flask.palletsprojects.com) - Framework web
+- [Supabase](https://supabase.com) - Backend e banco de dados
 - [SerpApi](https://serpapi.com) - API de busca do Google
 - [DataStone](https://datastone.com.br) - Dados de CNPJ
 - [Apify](https://apify.com) - Scraping do Instagram
